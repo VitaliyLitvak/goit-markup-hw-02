@@ -1,0 +1,33 @@
+/* IRIS - color: #4D5AE5; WHITE - color: #FFFFFF;
+NAVYBLUE - color: #2E2F42; SLATE - color: #434455;
+CLOUD - color: #F4F4FD; OCEAN - color: #404BBF;*/
+
+:root { --background: #E5E5E5;
+--text-color: #434455;
+--title-text-color: #2E2F42;
+--hover-color: #404BBF;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-color);
+}
+
+.list {list-style: none;}
+
+.site-nav {background-color: #FFFFFF;}
+.site-nav .link{color: #2E2F42;}
+.site-nav .link.current, .site-nav .link:hover, .site-nav .link:focus, .site-nav .link:active {
+    color: var(--hover-color);
+}
+
+.hero {background-color: #2E2F42;}
+.hero-title {color: #FFFFFF;}
+
+.section-title {color: var(--title-text-color);}
+
+.btn {}
+.btn.primary {background-color: #4d5ae5; color: #FFFFFF;}
+.btn.primary:hover {background-color: var(--hover-color); color: #FFFFFF;}
+.btn.secondary {background-color: #F4F4FD; color: #4d5ae5;}
+.btn.secondary.current, .btn.secondary:hover, .btn-portfolio:focus, .btn-portfolio:active {background-color: var(--hover-color); color: #FFFFFF;}
