@@ -24,7 +24,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 .logo.web {color: var(--iris-color);}
-.logo.link {text-decoration: none;}
+.logo.link, .project-card.link {text-decoration: none;}
 .logo.studio {color: var(--title-text-color);}
 
 .site-nav {background-color: var(--background); color: var(--title-text-color);}
@@ -52,7 +52,8 @@ body {
 }
 
 .section {
-    font-size: 16;
+    color: var(--text-color);
+    font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;}
 .section-title {
@@ -63,7 +64,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     color: var(--title-text-color);}
-.section .inner {
+.section .inner, .project-card .inner {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -74,6 +75,7 @@ body {
     background-color: var(--background);
     text-align: center;}
 .project-card {background-color: var(--background);}
+
 
 .footer {
     color: var(--cloud-color);
