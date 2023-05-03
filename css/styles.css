@@ -85,13 +85,14 @@ body {
 
 
 .btn {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.04em;
     cursor: pointer;}
-.btn.primary {background-color: #4d5ae5; color: #FFFFFF; font-family: 'Roboto', sans-serif;}
+.btn.primary {background-color: #4d5ae5; color: #FFFFFF;}
 .btn.primary:hover, .btn.primary:focus {background-color: var(--hover-color); color: #FFFFFF;}
 .btn.secondary {background-color: #F4F4FD; color: #4d5ae5;}
 .btn.secondary.current, .btn.secondary:hover, .btn.secondary:focus {background-color: var(--hover-color); color: #FFFFFF;}
