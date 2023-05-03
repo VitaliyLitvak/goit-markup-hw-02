@@ -6,7 +6,8 @@ CLOUD - color: #F4F4FD; OCEAN - color: #404BBF;*/
 --text-color: #434455;
 --title-text-color: #2E2F42;
 --hover-color: #404BBF;
---iris-color: #4D5AE5;}
+--iris-color: #4D5AE5;
+--cloud-color: #F4F4FD;}
 
 body {
     background-color: var(--background);
@@ -24,6 +25,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 .logo.link {text-decoration: none;}
+.logo.studio {color: var(--title-text-color);}
 
 .site-nav {background-color: var(--background); color: var(--title-text-color);}
 .site-nav .link{
@@ -75,8 +77,9 @@ body {
 
 .footer {
     background-color: #2E2F42;
-    color: #F4F4FD;
+    color: var(--cloud-color);
     font-size: 16px;}
+.footer-logo {color: var(--cloud-color);}
 
 .btn {
     font-weight: 500;
