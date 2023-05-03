@@ -35,7 +35,7 @@ body {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;}
-.address .link:hover, .site-nav .link.current, .site-nav .link:hover, .site-nav .link:focus, .site-nav .link:active {
+.address .link:hover, .address .link:focus, .address .link:active , .site-nav .link.current, .site-nav .link:hover, .site-nav .link:focus, .site-nav .link:active {
     color: var(--hover-color);
 }
 
