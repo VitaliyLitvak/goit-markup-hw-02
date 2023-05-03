@@ -17,13 +17,13 @@ body {
 .list {list-style: none;}
 
 .logo {
-    color: var(--iris-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
+.logo.web {color: var(--iris-color);}
 .logo.link {text-decoration: none;}
 .logo.studio {color: var(--title-text-color);}
 
@@ -76,10 +76,11 @@ body {
 .project-card {background-color: var(--background);}
 
 .footer {
-    background-color: #2E2F42;
     color: var(--cloud-color);
+    background-color: #2E2F42;
     font-size: 16px;}
 .footer-logo {color: var(--cloud-color);}
+
 
 .btn {
     font-weight: 500;
